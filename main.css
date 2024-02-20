@@ -1,0 +1,35 @@
+header {
+    background-color: #4A4A4A;
+}
+
+h1 {
+    font-family: "Big Shoulders Stencil Display", sans-serif;
+    font-size: 5em;
+    color: #E6E6E6;
+}
+
+body {
+    background-color: #000;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+    color: #E6E6E6;
+}
+
+
+
+@media screen and (max-width: 767px){
+    .movie-name {
+        font-size: 2em;
+        
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .movie-name {
+        font-size: 3em;
+        
+    }
+}
